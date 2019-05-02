@@ -48,4 +48,20 @@ body {
 }
 
 .bottom-section {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 2%;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 2%;
 }
