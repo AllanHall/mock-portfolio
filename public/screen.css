@@ -65,3 +65,16 @@ h2 {
   text-align: center;
   padding-top: 2%;
 }
+
+#twitter-images {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+#twitter-images > li > img {
+  height: 40px;
+  width: 40px;
+}
