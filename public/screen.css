@@ -64,19 +64,27 @@ body {
 }
 
 .middle-section {
-  background-color: white;
   margin-left: 10%;
   margin-right: 10%;
 }
 
+#first-paragraph {
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+#second-paragraph {
+  background-color: white;
+}
+
 #first-paragraph > header {
   background-image: url(images/react.png);
-  min-height: 100px;
+  min-height: 90px;
 }
 
 #second-paragraph > header {
   background-image: url(images/code.png);
-  min-height: 100px;
+  min-height: 90px;
 }
 
 #first-pseudo::after {
