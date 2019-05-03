@@ -23,14 +23,36 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
-.four-images {
-  padding-left: 15%;
-  padding-right: 15%;
+
+#first-flex > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-height: 100px;
+  margin-top: 10%;
+  margin-left: 2%;
+  border-radius: 2%;
+}
+
+#first-flex > img {
+  margin-bottom: 6%;
+}
+
+#first-flex {
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
+}
+
+.four-images {
+  display: flex;
+  justify-content: space-between;
   background: rgba(0, 0, 0, 0.5);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.four-images > img {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #my-photo {
@@ -47,6 +69,17 @@ body {
   margin-right: 10%;
 }
 
+#first-pseudo::after {
+  content: 'December 6th, 2018';
+  color: grey;
+  font-size: 12px;
+}
+
+#second-pseudo::after {
+  content: 'November 15th, 2018';
+  color: grey;
+  font-size: 12px;
+}
 .bottom-section {
   color: white;
   text-align: center;
@@ -57,7 +90,7 @@ footer {
   color: white;
   text-align: center;
   font-size: 12px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 h2 {
@@ -70,11 +103,17 @@ h2 {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  margin-left: 38%;
+  margin-left: 35%;
   margin-right: 38%;
 }
 
 #twitter-images > li > img {
   height: 40px;
   width: 40px;
+}
+
+#react-photo {
+}
+
+#code-photo {
 }
