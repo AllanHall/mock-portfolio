@@ -69,6 +69,16 @@ body {
   margin-right: 10%;
 }
 
+#first-paragraph > header {
+  background-image: url(images/react.png);
+  min-height: 100px;
+}
+
+#second-paragraph > header {
+  background-image: url(images/code.png);
+  min-height: 100px;
+}
+
 #first-pseudo::after {
   content: 'December 6th, 2018';
   color: grey;
@@ -88,7 +98,7 @@ body {
   margin-top: 5%;
 }
 
-footer {
+.copyright {
   color: white;
   text-align: center;
   font-size: 12px;
