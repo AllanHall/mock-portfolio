@@ -77,32 +77,48 @@ body {
 #first-paragraph {
   background-color: white;
   margin-bottom: 5%;
+  border-radius: 3%;
 }
 
 #second-paragraph {
   background-color: white;
+  border-radius: 3%;
 }
 
 #first-paragraph > header {
   background-image: url(images/react.png);
   min-height: 90px;
+  margin-top: 2.5%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 }
 
 #first-paragraph > footer {
   align-self: right;
-  background-color: rgb(17, 176, 230);
+  background-color: rgb(54, 166, 235);
   color: white;
+  text-align: right;
+  padding-right: 5%;
+  margin-left: 85%;
+  margin-right: 1%;
 }
 
 #second-paragraph > header {
   background-image: url(images/code.png);
   min-height: 90px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 }
 
 #second-paragraph > footer {
   align-self: right;
-  background-color: rgb(17, 176, 230);
+  background-color: rgb(54, 166, 235);
   color: white;
+  text-align: right;
+  padding-right: 5%;
+  margin-left: 85%;
+  margin-right: 1%;
+  margin-top: 5%;
 }
 
 #first-pseudo::after {
