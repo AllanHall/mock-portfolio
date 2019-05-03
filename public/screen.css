@@ -46,8 +46,8 @@ body {
   display: flex;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0.5);
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .four-images > img {
@@ -73,12 +73,14 @@ body {
   content: 'December 6th, 2018';
   color: grey;
   font-size: 12px;
+  padding-left: 1%;
 }
 
 #second-pseudo::after {
   content: 'November 15th, 2018';
   color: grey;
   font-size: 12px;
+  padding-left: 1%;
 }
 .bottom-section {
   color: white;
