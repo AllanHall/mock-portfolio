@@ -63,6 +63,12 @@ body {
   border-radius: 3%;
 }
 
+#tri-photo {
+  padding-top: 3.36%;
+  padding-left: 5%;
+  opacity: 0.8;
+}
+
 .middle-section {
   margin-left: 10%;
   margin-right: 10%;
@@ -82,9 +88,21 @@ body {
   min-height: 90px;
 }
 
+#first-paragraph > footer {
+  align-self: right;
+  background-color: rgb(17, 176, 230);
+  color: white;
+}
+
 #second-paragraph > header {
   background-image: url(images/code.png);
   min-height: 90px;
+}
+
+#second-paragraph > footer {
+  align-self: right;
+  background-color: rgb(17, 176, 230);
+  color: white;
 }
 
 #first-pseudo::after {
