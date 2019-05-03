@@ -78,11 +78,13 @@ body {
   background-color: white;
   margin-bottom: 5%;
   border-radius: 3%;
+  position: relative;
 }
 
 #second-paragraph {
   background-color: white;
   border-radius: 3%;
+  position: relative;
 }
 
 #first-paragraph > header {
@@ -91,16 +93,17 @@ body {
   margin-top: 2.5%;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #first-paragraph > footer {
-  align-self: right;
   background-color: rgb(54, 166, 235);
   color: white;
-  text-align: right;
-  padding-right: 5%;
-  margin-left: 85%;
-  margin-right: 1%;
+  position: absolute;
+  right: 1rem;
+  bottom: -1.2rem;
+  padding: 0.5rem;
 }
 
 #second-paragraph > header {
@@ -108,17 +111,31 @@ body {
   min-height: 90px;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #second-paragraph > footer {
-  align-self: right;
   background-color: rgb(54, 166, 235);
   color: white;
-  text-align: right;
+  position: absolute;
+  right: 1rem;
+  bottom: -1.2rem;
+  padding: 0.5rem;
+}
+
+#first-paragraph > p {
+  padding-left: 5%;
   padding-right: 5%;
-  margin-left: 85%;
-  margin-right: 1%;
-  margin-top: 5%;
+}
+
+#second-paragraph > p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#first-pseudo {
+  padding-left: 5%;
 }
 
 #first-pseudo::after {
@@ -128,12 +145,17 @@ body {
   padding-left: 1%;
 }
 
+#second-pseudo {
+  padding-left: 5%;
+}
+
 #second-pseudo::after {
   content: 'November 15th, 2018';
   color: grey;
   font-size: 12px;
   padding-left: 1%;
 }
+
 .bottom-section {
   color: white;
   text-align: center;
@@ -164,10 +186,4 @@ h2 {
 #twitter-images > li > img {
   height: 40px;
   width: 40px;
-}
-
-#react-photo {
-}
-
-#code-photo {
 }
