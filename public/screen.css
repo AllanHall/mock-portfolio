@@ -187,3 +187,15 @@ h2 {
   height: 40px;
   width: 40px;
 }
+
+@media screen and (max-width: 1000px) {
+  .four-images {
+    flex-direction: column;
+  }
+  #first-flex > div {
+    flex-direction: column;
+  }
+  #twitter-images {
+    margin-left: 15%;
+  }
+}
